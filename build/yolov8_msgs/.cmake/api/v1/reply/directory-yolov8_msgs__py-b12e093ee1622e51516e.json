@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yolov8_msgs__py",
+		"source" : "/home/davinci/ros2_simulation_ws/build/yolov8_msgs/yolov8_msgs__py"
+	}
+}

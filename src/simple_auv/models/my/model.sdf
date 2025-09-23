@@ -1,0 +1,276 @@
+<?xml version='1.0'?>
+<sdf version="1.6"> 
+
+    <model name="mesh"> 
+        <static>0</static> 
+        <self_collide>0</self_collide> 
+        <allow_auto_disable>1</allow_auto_disable> 
+
+        <!-- Top level model pose should not have relative_to attribute -->
+        <pose>0 0 0 0 0 0</pose> 
+
+        <link name="base_link"> 
+
+            <gravity>1</gravity> 
+            <self_collide>0</self_collide> 
+            <kinematic>0</kinematic> 
+
+            <!-- Adjusted pose to place model on ground plane -->
+            <pose>0 0 0.4 0 0 0</pose> 
+
+            <inertial> 
+                <mass>400.613934</mass> 
+                <inertia> 
+                    <!-- http://gazebosim.org/tutorials?tut=inertia&cat=build_robot --> 
+                    <ixx>0.260746</ixx> 
+                    <ixy>0.000000</ixy> 
+                    <ixz>-0.000000</ixz> 
+                    <iyy>0.272013</iyy> 
+                    <iyz>0.000000</iyz> 
+                    <izz>0.310098</izz> 
+                </inertia> 
+
+                <!-- 
+                This is the pose of the inertial reference frame, relative to the specified reference frame. 
+                The origin of the inertial reference frame needs to be at the center of gravity. 
+                The axes of the inertial reference frame do not need to be aligned with the principal axes of the inertia. 
+                --> 
+                <pose>0 0 0 0 0 0</pose> 
+            </inertial> 
+            
+            <collision name="collision"> 
+                <!-- 
+                    Maximum number of contacts allowed between two entities. 
+                    This value overrides the max_contacts element defined in physics. 
+                --> 
+                <max_contacts>20</max_contacts> 
+
+                <!-- A frame of reference to which a pose is relative. --> 
+                <!-- A position(x,y,z) and orientation(roll, pitch yaw) with respect to the specified frame. --> 
+                <pose>0 0 0 0 0 0</pose> 
+
+                <geometry> 
+                    <mesh> 
+                        <uri>file:///home/davinci/ros2_simulation_ws/src/simple_auv/models/my/meshes/mesh.stl</uri> 
+                        <!-- <uri>model://mymodel/meshes/model.stl</uri> --> 
+                        <!-- Scaling factor applied to the mesh --> 
+                        <scale>1.0 1.0 1.0</scale> 
+                    </mesh> 
+                </geometry> 
+                
+                <!-- Updated surface properties for SDF 1.6 compatibility -->
+                <surface>
+                    <contact>
+                        <collide_without_contact>0</collide_without_contact>
+                        <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+                        <collide_bitmask>1</collide_bitmask>
+                        <ode>
+                            <soft_cfm>0.001</soft_cfm>
+                            <soft_erp>0.2</soft_erp>
+                            <kp>1000000</kp>
+                            <kd>1</kd>
+                            <max_vel>0.01</max_vel>
+                            <min_depth>0.001</min_depth>
+                        </ode>
+                        <bullet>
+                            <soft_cfm>0.001</soft_cfm>
+                            <soft_erp>0.2</soft_erp>
+                            <kp>1000000</kp>
+                            <kd>1</kd>
+                            <split_impulse>1</split_impulse>
+                            <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+                        </bullet>
+                    </contact>
+                    <friction>
+                        <torsional>
+                            <coefficient>1</coefficient>
+                            <patch_radius>0</patch_radius>
+                            <surface_radius>0</surface_radius>
+                            <use_patch_radius>1</use_patch_radius>
+                            <ode>
+                                <slip>0</slip>
+                            </ode>
+                        </torsional>
+                        <ode>
+                            <mu>1</mu>
+                            <mu2>1</mu2>
+                            <fdir1>0 0 0</fdir1>
+                            <slip1>0</slip1>
+                            <slip2>0</slip2>
+                        </ode>
+                        <bullet>
+                            <friction>1</friction>
+                            <friction2>1</friction2>
+                            <fdir1>0 0 0</fdir1>
+                            <rolling_friction>1</rolling_friction>
+                        </bullet>
+                    </friction>
+                    <bounce>
+                        <restitution_coefficient>0</restitution_coefficient>
+                        <threshold>1000000</threshold>
+                    </bounce>
+                </surface>
+            </collision> 
+            
+            <visual name="visual"> 
+                <cast_shadows>1</cast_shadows>
+                <transparency>0</transparency>
+
+                <pose>0 0 0 0 0 0</pose> 
+
+                <material> 
+                    <script> 
+                        <uri>file://media/materials/scripts/gazebo.material</uri>
+                        <!-- <name>Gazebo/TurquoiseGlowOutline</name> -->
+                        <name>Gazebo/Green</name>
+                    </script>
+                    <shader type="vertex">
+                      <normal_map>__default__</normal_map>
+                    </shader>
+
+                    <lighting>1</lighting> 
+                    <ambient>0.15 0.75 0.35 1</ambient> 
+                    <diffuse>0.1 0.95 0.25 1</diffuse> 
+                    <specular>0.01 0.01 0.01 1</specular> 
+                    <emissive>0 0 0 1</emissive> 
+                </material>
+
+                <geometry> 
+                    <mesh> 
+                        <uri>file:///home/davinci/ros2_simulation_ws/src/simple_auv/models/my/meshes/mesh.stl</uri> 
+                        <!-- <uri>model://mymodel/meshes/model.stl</uri> --> 
+                        <!-- Scaling factor applied to the mesh --> 
+                        <scale>1.0 1.0 1.0</scale> 
+                    </mesh> 
+                </geometry> 
+            </visual>
+
+            <collision name="main_body_buoyancy">
+                <pose>0 0 0 0 0 0</pose>
+                <geometry>
+                  <box>
+                    <size>0.543 0.510 0.408</size>
+                  </box>
+                </geometry>
+            </collision>
+
+            <!-- Fixed Camera Sensor - MOVED INSIDE THE LINK -->
+            <sensor name="camera" type="camera">
+                <pose>0.7 0 -0.1 0 0 0</pose>
+                <always_on>true</always_on>
+                <visualize>true</visualize>
+                <update_rate>50</update_rate>
+                <topic>camera</topic>
+                <gz_frame_id>camera_link</gz_frame_id>
+                <camera>
+                    <camera_info_topic>camera/camera_info</camera_info_topic>
+                    <horizontal_fov>1.047</horizontal_fov>
+                    <image>
+                        <width>1920</width>
+                        <height>1080</height>
+                        <format>R8G8B8</format>
+                    </image>
+                    <clip>
+                        <near>0.1</near>
+                        <far>100</far>
+                    </clip>
+                    <noise>
+                        <type>gaussian</type>
+                        <mean>0</mean>
+                        <stddev>0.007</stddev>
+                    </noise>
+                </camera>
+            </sensor>
+        </link> 
+
+        <link name="thruster">
+            <pose>0 0.05 0 0 0 0</pose>
+            <inertial>
+                <mass>0.1</mass>
+                <inertia>
+                    <ixx>0.001</ixx>
+                    <ixy>0</ixy>
+                    <ixz>0</ixz>
+                    <iyy>0.001</iyy>
+                    <iyz>0</iyz>
+                    <izz>0.001</izz>
+                </inertia>
+            </inertial>
+            <collision name="thruster_collision">
+                <geometry> 
+                    <mesh> 
+                        <uri>file:///home/davinci/ros2_simulation_ws/src/simple_auv/models/my/meshes/thruster.stl</uri> 
+                        <!-- <uri>model://mymodel/meshes/model.stl</uri> --> 
+                        <!-- Scaling factor applied to the mesh --> 
+                        <scale>1.0 1.0 1.0</scale> 
+                    </mesh> 
+                </geometry> 
+            </collision>
+            <visual name="thruster_visual">
+                <geometry> 
+                    <mesh> 
+                        <uri>file:///home/davinci/ros2_simulation_ws/src/simple_auv/models/my/meshes/thruster.stl</uri> 
+                        <!-- <uri>model://mymodel/meshes/model.stl</uri> --> 
+                        <!-- Scaling factor applied to the mesh --> 
+                        <scale>1.0 1.0 1.0</scale> 
+                    </mesh> 
+                </geometry> 
+            </visual>
+        </link>
+
+        <joint name="thruster_joint" type="revolute">
+            <parent>base_link</parent>
+            <child>thruster</child>
+            <pose>0 0 0 0 0 0</pose>
+            <axis>
+                <xyz>1 0 0</xyz>
+                <limit>
+                    <lower>-6.28</lower>
+                    <upper>6.28</upper>
+                </limit>
+                <dynamics>
+                    <friction>0.1</friction>
+                    <damping>0.1</damping>
+                </dynamics>
+            </axis>
+        </joint>
+        
+       <plugin
+      name="gz::sim::systems::Hydrodynamics"
+      filename="libgz-sim-hydrodynamics-system.so">
+            <link_name>base_link</link_name>
+            <volume>0.02</volume> 
+            <fluid_density>1000</fluid_density>
+            <linear_drag>10 10 10</linear_drag>
+            <angular_drag>1 1 1</angular_drag>
+
+            <added_mass>
+                <xDotU>0.0</xDotU>                  <!-- surge -->
+                <yDotV>0.0</yDotV>                  <!-- sway not modeled -->
+                <zDotW>282.49733521</zDotW>         <!-- heave -->
+                <kDotP>271.09524827</kDotP>         <!-- roll -->
+                <mDotQ>80399.0</mDotQ>              <!-- pitch -->
+                <nDotR>269.63284302</nDotR>         <!-- yaw -->
+
+                <!-- Radiation damping (first frequency slice, diagonal entries) -->
+                <xU>77261</xU>                      <!-- surge -->
+                <yV>0.0</yV>                        <!-- sway -->
+                <zW>77739</zW>                      <!-- heave -->
+                <kP>80399</kP>                      <!-- roll -->
+                <mQ>80399</mQ>                      <!-- pitch -->
+                <nR>77343</nR>                      <!-- yaw -->
+            </added_mass>
+        </plugin>
+
+        <plugin
+  filename="libgz-sim8-thruster-system.so"
+  name="gz::sim::systems::Thruster">
+  <joint_name>thruster_joint</joint_name>
+  <thrust_coefficient>0.7</thrust_coefficient>
+  <fluid_density>1000</fluid_density>
+  <propeller_diameter>0.006</propeller_diameter>
+  <topic>thruster_cmd</topic>
+</plugin>
+
+    </model> 
+</sdf>

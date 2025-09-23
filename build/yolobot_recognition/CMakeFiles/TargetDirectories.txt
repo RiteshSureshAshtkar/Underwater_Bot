@@ -1,0 +1,9 @@
+/home/davinci/ros2_simulation_ws/build/yolobot_recognition/CMakeFiles/uninstall.dir
+/home/davinci/ros2_simulation_ws/build/yolobot_recognition/CMakeFiles/yolobot_recognition_uninstall.dir
+/home/davinci/ros2_simulation_ws/build/yolobot_recognition/CMakeFiles/test.dir
+/home/davinci/ros2_simulation_ws/build/yolobot_recognition/CMakeFiles/edit_cache.dir
+/home/davinci/ros2_simulation_ws/build/yolobot_recognition/CMakeFiles/rebuild_cache.dir
+/home/davinci/ros2_simulation_ws/build/yolobot_recognition/CMakeFiles/list_install_components.dir
+/home/davinci/ros2_simulation_ws/build/yolobot_recognition/CMakeFiles/install.dir
+/home/davinci/ros2_simulation_ws/build/yolobot_recognition/CMakeFiles/install/local.dir
+/home/davinci/ros2_simulation_ws/build/yolobot_recognition/CMakeFiles/install/strip.dir

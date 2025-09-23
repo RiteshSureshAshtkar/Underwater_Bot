@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+    <model name="tethys">
+        <include merge="true">
+            <uri>tethys</uri>
+        </include>
+    <plugin
+    filename="gz-sim-hydrodynamics-system"
+    name="gz::sim::systems::Hydronomics">
+        <link_name>base_link</link_name>
+        <xDotU>-4.87661</xDotU>
+        <yDotU>-126.32439</yDotU>
+    </model>
+</sdf>

@@ -1,0 +1,2 @@
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/worlds
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models

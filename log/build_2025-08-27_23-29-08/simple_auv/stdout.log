@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/davinci/ros2_simulation_ws/build/simple_auv
+-- Install configuration: ""
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/model.config
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/model.sdf
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/mesh.stl
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/prop.stl
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/my.dae
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/h.dae
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/thruster.stl
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys_e
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys_e/model.config
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys_e/model.sdf
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/model.config
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/model.sdf
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes/tethys.dae
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes/base.dae
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes/propeller.dae
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/2.png
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/1.png
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/5.png
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/3.png
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/4.png
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Albedo.png
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Normal.png
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Roughness.png
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Metalness.png
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/scripts
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/scripts/model.material
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/README.md
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/model.config
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/model.sdf
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/thumbnails
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/thumbnails/gate.png
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/worlds
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/worlds/README.md
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/worlds/water_world.sdf
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/launch
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/launch/launch_it.py
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/hooks
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/hooks/hook.dsv
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/ament_index/resource_index/package_run_dependencies/simple_auv
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/ament_index/resource_index/parent_prefix_path/simple_auv
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/ament_prefix_path.sh
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/ament_prefix_path.dsv
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/path.sh
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/path.dsv
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.bash
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.sh
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.zsh
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.dsv
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/package.dsv
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/ament_index/resource_index/packages/simple_auv
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/cmake/simple_auvConfig.cmake
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/cmake/simple_auvConfig-version.cmake
+-- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/package.xml

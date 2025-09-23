@@ -1,0 +1,87 @@
+[0.266s] Invoking command in '/home/davinci/ros2_simulation_ws/build/simple_auv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/davinci/ros2_simulation_ws/src/simple_auv -DCMAKE_INSTALL_PREFIX=/home/davinci/ros2_simulation_ws/install/simple_auv
+[0.323s] -- The C compiler identification is GNU 13.3.0
+[0.382s] -- The CXX compiler identification is GNU 13.3.0
+[0.397s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.491s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.492s] -- Detecting C compile features
+[0.492s] -- Detecting C compile features - done
+[0.501s] -- Detecting CXX compiler ABI info
+[0.602s] -- Detecting CXX compiler ABI info - done
+[0.616s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.616s] -- Detecting CXX compile features
+[0.617s] -- Detecting CXX compile features - done
+[0.621s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.791s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.922s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.023s] -- Configuring done (0.7s)
+[1.025s] -- Generating done (0.0s)
+[1.027s] -- Build files have been written to: /home/davinci/ros2_simulation_ws/build/simple_auv
+[1.032s] Invoked command in '/home/davinci/ros2_simulation_ws/build/simple_auv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/davinci/ros2_simulation_ws/src/simple_auv -DCMAKE_INSTALL_PREFIX=/home/davinci/ros2_simulation_ws/install/simple_auv
+[1.033s] Invoking command in '/home/davinci/ros2_simulation_ws/build/simple_auv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/ros2_simulation_ws/build/simple_auv -- -j8 -l8
+[1.076s] Invoked command in '/home/davinci/ros2_simulation_ws/build/simple_auv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/davinci/ros2_simulation_ws/build/simple_auv -- -j8 -l8
+[1.086s] Invoking command in '/home/davinci/ros2_simulation_ws/build/simple_auv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/ros2_simulation_ws/build/simple_auv
+[1.094s] -- Install configuration: ""
+[1.095s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models
+[1.095s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my
+[1.095s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/model.config
+[1.095s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/model.sdf
+[1.095s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes
+[1.095s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/mesh.stl
+[1.104s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/prop.stl
+[1.104s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/my.dae
+[1.117s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/h.dae
+[1.160s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/thruster.stl
+[1.160s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys_e
+[1.160s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys_e/model.config
+[1.160s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys_e/model.sdf
+[1.160s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys
+[1.161s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/model.config
+[1.161s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/model.sdf
+[1.161s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes
+[1.162s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes/tethys.dae
+[1.163s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes/base.dae
+[1.170s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes/propeller.dae
+[1.172s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails
+[1.173s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/2.png
+[1.173s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/1.png
+[1.173s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/5.png
+[1.173s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/3.png
+[1.173s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/4.png
+[1.173s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials
+[1.173s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures
+[1.173s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Albedo.png
+[1.174s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Normal.png
+[1.174s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Roughness.png
+[1.174s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Metalness.png
+[1.176s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/scripts
+[1.176s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/scripts/model.material
+[1.176s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/README.md
+[1.176s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate
+[1.176s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/model.config
+[1.177s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/model.sdf
+[1.177s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/thumbnails
+[1.177s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/thumbnails/gate.png
+[1.177s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/worlds
+[1.177s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/worlds/README.md
+[1.177s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/worlds/water_world.sdf
+[1.177s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/launch
+[1.177s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/launch/launch_it.py
+[1.178s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/hooks
+[1.178s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/hooks/hook.dsv
+[1.178s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/ament_index/resource_index/package_run_dependencies/simple_auv
+[1.178s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/ament_index/resource_index/parent_prefix_path/simple_auv
+[1.178s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/ament_prefix_path.sh
+[1.178s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/ament_prefix_path.dsv
+[1.178s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/path.sh
+[1.179s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/path.dsv
+[1.179s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.bash
+[1.179s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.sh
+[1.179s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.zsh
+[1.179s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.dsv
+[1.179s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/package.dsv
+[1.179s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/ament_index/resource_index/packages/simple_auv
+[1.179s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/cmake/simple_auvConfig.cmake
+[1.180s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/cmake/simple_auvConfig-version.cmake
+[1.180s] -- Installing: /home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/package.xml
+[1.187s] Invoked command in '/home/davinci/ros2_simulation_ws/build/simple_auv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/davinci/ros3_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/davinci/ros2_simulation_ws/build/simple_auv

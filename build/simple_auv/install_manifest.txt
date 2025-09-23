@@ -1,0 +1,47 @@
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/model.config
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/model.sdf
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/mesh.stl
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/prop.stl
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/my.dae
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/h.dae
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/my/meshes/thruster.stl
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys_e/model.config
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys_e/model.sdf
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/model.config
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/model.sdf
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes/tethys.dae
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes/base.dae
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/meshes/propeller.dae
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/2.png
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/1.png
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/5.png
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/3.png
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/thumbnails/4.png
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Albedo.png
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Normal.png
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Roughness.png
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/textures/Tethys_Metalness.png
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/tethys/materials/scripts/model.material
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/README.md
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/model.config
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/model.sdf
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/models/Big gate/thumbnails/gate.png
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/worlds/README.md
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/worlds/water_world.sdf
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/launch/launch_it.py
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/hooks/hook.dsv
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/ament_index/resource_index/package_run_dependencies/simple_auv
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/ament_index/resource_index/parent_prefix_path/simple_auv
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/ament_prefix_path.sh
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/ament_prefix_path.dsv
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/path.sh
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/environment/path.dsv
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.bash
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.sh
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.zsh
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/local_setup.dsv
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/package.dsv
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/ament_index/resource_index/packages/simple_auv
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/cmake/simple_auvConfig.cmake
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/cmake/simple_auvConfig-version.cmake
+/home/davinci/ros2_simulation_ws/install/simple_auv/share/simple_auv/package.xml
