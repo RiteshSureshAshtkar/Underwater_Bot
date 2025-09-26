@@ -16,15 +16,17 @@ colcon build
 source install/setup.bash
 ```
 
-### 2️⃣ Launch the Simulation
+### 2️⃣ Launch the Simulation in same terminal
 
 ```bash
 ros2 launch simple_auv launch_it.py
 ```
 
-### 3️⃣ Run Yolobot Recognition
+### 3️⃣ Open another terminal and run Yolobot Recognition
 
 ```bash
+cd roboflow-env
+source bin/activate
 ros2 run yolobot_recognition yolov8_ros2_pt.py
 ```
 
